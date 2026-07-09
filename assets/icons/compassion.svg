@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>Compassion</title>
+  <circle cx="32" cy="32" r="30" fill="#f4ead9"/>
+  <path d="M32 49S16 39 16 27c0-5 4-9 9-9 3 0 6 2 7 5 1-3 4-5 7-5 5 0 9 4 9 9 0 12-16 22-16 22Z" fill="#fffdf8" stroke="#382417" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M20 43c4 4 9 7 12 9 3-2 8-5 12-9" fill="none" stroke="#b88942" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

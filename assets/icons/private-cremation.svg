@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>Private cremation</title>
+  <circle cx="32" cy="32" r="30" fill="#f4ead9"/>
+  <path d="M32 12c8 4 13 11 13 20 0 10-6 17-13 20-7-3-13-10-13-20 0-9 5-16 13-20Z" fill="#fffdf8" stroke="#382417" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M32 21c5 3 8 7 8 13 0 5-3 9-8 12-5-3-8-7-8-12 0-6 3-10 8-13Z" fill="#ead8b4" stroke="#b88942" stroke-width="2.5" stroke-linejoin="round"/>
+</svg>

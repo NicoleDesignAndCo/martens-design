@@ -135,6 +135,13 @@ body .container {
   box-shadow: 0 18px 45px rgba(56, 36, 23, 0.08);
 }
 
+.card-icon {
+  width: 58px;
+  height: 58px;
+  margin-bottom: 1.1rem;
+  display: block;
+}
+
 .section-band {
   background: var(--warm-cream);
 }
