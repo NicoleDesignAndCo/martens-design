@@ -32,37 +32,37 @@
         </div>
       </section>
 
-      <section class="section-band py-16 md:py-20">
-        <div class="container grid gap-8 lg:grid-cols-[minmax(0,.95fr)_minmax(0,1.05fr)] lg:items-start">
+      <section class="section-band py-16">
+        <div class="container grid items-start gap-10 md:grid-cols-[minmax(0,1fr)_minmax(320px,.85fr)]">
           <!-- ACF: contact_details -->
-          <aside class="rounded-lg border border-[rgba(138,106,77,.2)] bg-[rgba(255,253,248,.72)] p-6 md:p-8">
+          <div class="max-w-2xl">
             <h2 class="text-3xl font-bold">Contact Details</h2>
-            <p class="mt-4 text-[var(--muted-brown)]">Matt and Joanne welcome questions about future arrangements, service options, and memorial products as Martens Pet Cremation Services prepares to open.</p>
+            <p class="mt-4 text-lg text-[var(--muted-brown)]">Matt and Joanne welcome questions about future arrangements, service options, and memorial products as Martens Pet Cremation Services prepares to open.</p>
 
-            <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
+            <dl class="mt-8 grid gap-6">
               <!-- TODO: Confirm phone numbers with client before launch. -->
-              <div class="rounded-md border border-[rgba(138,106,77,.18)] bg-[var(--white)] p-5">
-                <h3 class="font-bold text-[var(--deep-brown)]">Phone</h3>
-                <p class="mt-2 text-[var(--muted-brown)]">780-842-0280<br />780-842-0269</p>
+              <div>
+                <dt class="serif text-xl font-bold text-[var(--deep-brown)]">Phone</dt>
+                <dd class="mt-1 font-semibold text-[var(--muted-brown)]">780-842-0280<br />780-842-0269</dd>
               </div>
-              <div class="rounded-md border border-[rgba(138,106,77,.18)] bg-[var(--white)] p-5">
-                <h3 class="font-bold text-[var(--deep-brown)]">Email</h3>
-                <p class="mt-2 break-words"><a class="font-semibold text-[var(--gold)] hover:text-[var(--deep-brown)]" href="mailto:martenspetcremation@gmail.com">martenspetcremation@gmail.com</a></p>
+              <div>
+                <dt class="serif text-xl font-bold text-[var(--deep-brown)]">Email</dt>
+                <dd class="mt-1 break-words"><a class="font-semibold text-[var(--gold)] hover:text-[var(--deep-brown)]" href="mailto:martenspetcremation@gmail.com">martenspetcremation@gmail.com</a></dd>
               </div>
               <!-- TODO: Confirm mailing address with client before launch. -->
-              <div class="rounded-md border border-[rgba(138,106,77,.18)] bg-[var(--white)] p-5">
-                <h3 class="font-bold text-[var(--deep-brown)]">Mailing Address</h3>
-                <p class="mt-2 text-[var(--muted-brown)]">Box 2261<br />Wainwright Stn. Main, Alberta<br />T9W 1S8</p>
+              <div>
+                <dt class="serif text-xl font-bold text-[var(--deep-brown)]">Mailing Address</dt>
+                <dd class="mt-1 font-semibold text-[var(--muted-brown)]">Box 2261<br />Wainwright Stn. Main, Alberta<br />T9W 1S8</dd>
               </div>
               <!-- TODO: Confirm crematorium address with client before launch. -->
-              <div class="rounded-md border border-[rgba(138,106,77,.18)] bg-[var(--white)] p-5">
-                <h3 class="font-bold text-[var(--deep-brown)]">Crematorium Address</h3>
-                <p class="mt-2 text-[var(--muted-brown)]">71066 Highway 14<br />Wainwright, Alberta</p>
+              <div>
+                <dt class="serif text-xl font-bold text-[var(--deep-brown)]">Crematorium Address</dt>
+                <dd class="mt-1 font-semibold text-[var(--muted-brown)]">71066 Highway 14<br />Wainwright, Alberta</dd>
               </div>
-            </div>
-          </aside>
+            </dl>
+          </div>
 
-          <form class="rounded-lg border border-[rgba(138,106,77,.18)] bg-[var(--white)] p-6 md:p-8" data-contact-form>
+          <form class="rounded-lg border border-[rgba(138,106,77,.22)] bg-[rgba(255,253,248,.82)] p-6 shadow-[0_18px_45px_rgba(56,36,23,.06)] md:p-8" data-contact-form>
             <!-- ACF: contact_form -->
             <!-- TODO: Connect this form to email or a WordPress form plugin later. -->
             <h2 class="text-3xl font-bold">Send a Message</h2>
