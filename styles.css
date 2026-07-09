@@ -9,6 +9,7 @@
   --soft-gold: #ead8b4;
   --leaf: #6f7a4f;
   --white: #fffdf8;
+  --page-gutter: clamp(1.5rem, 5vw, 2rem);
 }
 
 * {
@@ -50,8 +51,8 @@ textarea:focus-visible {
   outline-offset: 3px;
 }
 
-.container {
-  width: min(1120px, calc(100% - 32px));
+body .container {
+  width: min(1120px, calc(100% - (var(--page-gutter) * 2)));
   margin-inline: auto;
 }
 
@@ -202,7 +203,7 @@ textarea:focus-visible {
 }
 
 .internal-banner__content {
-  width: min(48rem, calc(100% - 32px));
+  width: min(48rem, calc(100% - (var(--page-gutter) * 2)));
   max-width: 48rem;
 }
 
