@@ -44,23 +44,23 @@
     </header>
 
     <main>
-      <section class="relative overflow-hidden">
-        <div class="absolute inset-0 bg-[var(--warm-cream)]"></div>
-        <img src="/assets/family-photo.png" alt="Matt and Joanne with their family" class="hero-image relative h-[72vh] w-full object-cover object-center opacity-90" />
-        <div class="absolute inset-0 bg-gradient-to-r from-[rgba(56,36,23,.72)] via-[rgba(56,36,23,.28)] to-[rgba(56,36,23,.05)]"></div>
-        <div class="container absolute inset-x-0 bottom-0 top-0 flex items-center">
-          <div class="max-w-2xl rounded-lg bg-[rgba(255,253,248,.92)] p-6 shadow-2xl md:p-10">
+      <section class="home-hero">
+        <div class="container home-hero__inner">
+          <div class="home-hero__content">
             <!-- ACF: hero_headline -->
             <p class="mb-3 text-sm font-bold uppercase tracking-[0.18em] text-[var(--gold)]">Opening October 2026</p>
-            <h1 class="text-4xl font-bold text-[var(--deep-brown)] md:text-6xl">Compassionate pet cremation care coming to Central Alberta</h1>
+            <h1 class="text-4xl font-bold text-[var(--deep-brown)] lg:text-6xl">Compassionate pet cremation care coming to Central Alberta</h1>
             <div class="soft-divider"></div>
             <!-- ACF: hero_text -->
             <p class="text-lg text-[var(--muted-brown)]">Family-owned by Matt and Joanne, Martens Pet Cremation Services is preparing to open in October 2026, offering respectful, professional, and personalized care for families and their beloved pets.</p>
             <!-- ACF: hero_buttons -->
-            <div class="mt-7 flex flex-col gap-3 sm:flex-row">
+            <div class="home-hero__actions mt-7 flex flex-col gap-3 lg:flex-row">
               <a class="btn-primary" href="/contact.html">Contact Us</a>
               <a class="btn-secondary" href="/services.html">Learn About Our Services</a>
             </div>
+          </div>
+          <div class="home-hero__media">
+            <img src="/assets/family-photo.png" alt="Matt and Joanne with their family" class="home-hero__image" />
           </div>
         </div>
       </section>
