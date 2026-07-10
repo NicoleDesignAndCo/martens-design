@@ -245,6 +245,10 @@ body .container {
   padding: clamp(2.5rem, 4vw, 3.25rem) 0;
 }
 
+.services-hero {
+  background: var(--cream);
+}
+
 .home-hero__inner {
   display: grid;
   gap: clamp(2rem, 5vw, 4rem);
@@ -260,6 +264,7 @@ body .container {
 
 .home-hero__media {
   position: relative;
+  aspect-ratio: 4 / 3;
   overflow: hidden;
   border-radius: 8px;
   background: var(--soft-beige);
@@ -295,10 +300,6 @@ body .container {
     gap: 1.5rem;
   }
 
-  .home-hero__media {
-    aspect-ratio: 4 / 3;
-  }
-
   .home-hero__image {
     object-position: 45% center;
   }
@@ -306,11 +307,7 @@ body .container {
 
 @media (min-width: 768px) {
   .home-hero__inner {
-    grid-template-columns: minmax(0, 1.35fr) minmax(300px, 1fr);
-  }
-
-  .home-hero__media {
-    min-height: 430px;
+    grid-template-columns: minmax(0, 1.12fr) minmax(320px, 1fr);
   }
 
   .home-hero__image {
@@ -334,10 +331,6 @@ body .container {
 
 @media (min-width: 1024px) {
   .home-hero__inner {
-    grid-template-columns: minmax(0, 1.35fr) minmax(360px, 1fr);
-  }
-
-  .home-hero__media {
-    min-height: 520px;
+    grid-template-columns: minmax(0, 1.12fr) minmax(400px, 1fr);
   }
 }
